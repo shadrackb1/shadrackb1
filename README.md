@@ -71,6 +71,8 @@ I organize robotics and applied AI workshops at Kabarak University. I study law.
 
 <img src="./analytics-skills.svg" width="960" alt="Certification donut and skills radar" />
 
+Full verification index: [credentials hub](https://shadrackb1.github.io/playground/credentials.html)
+
 ---
 
 ## Pipeline
@@ -92,6 +94,8 @@ How RIS moves a document to a cited answer without leaving the stick.
 </a>
 
 <img src="./dist/profile-3d.svg" width="720" alt="3D contribution graph" onerror="this.style.display='none'" />
+
+<img src="./dist/github-snake.svg" width="720" alt="Contribution snake" onerror="this.style.display='none'" />
 
 </div>
 
@@ -136,8 +140,11 @@ Housing, retail, insurance, hospitality, justice orgs, foundations, school analy
 | Reaction | [play](https://shadrackb1.github.io/playground/reaction.html) |
 | **USSD simulator** | [play](https://shadrackb1.github.io/playground/ussd.html) |
 | **RIS lab** | [play](https://shadrackb1.github.io/playground/ris-lab.html) |
+| **2048** | [play](https://shadrackb1.github.io/playground/game-2048.html) |
+| **Mines** | [play](https://shadrackb1.github.io/playground/mines.html) |
+| **Credentials hub** | [open](https://shadrackb1.github.io/playground/credentials.html) |
 
-Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/)
+Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/) · Certs: [credentials](https://shadrackb1.github.io/playground/credentials.html)
 
 ---
 
