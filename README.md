@@ -1,157 +1,166 @@
 <div align="center">
 
-<!-- capsule brand bar -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:22D3EE,100:818CF8&height=120&section=header&text=Shadrack%20Baraka%20Mwahanga&fontColor=E2E8F0&fontSize=28&animation=fadeIn&fontAlignY=35&desc=Engineer%20%C2%B7%20LLB%20Kabarak%20%C2%B7%20Offline%20AI%20%C2%B7%20Nairobi&descSize=14&descAlignY=58" width="960" alt="brand header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:22D3EE,100:818CF8&height=110&section=header&text=Shadrack%20Baraka%20Mwahanga&fontColor=E2E8F0&fontSize=28&animation=fadeIn&fontAlignY=32&desc=Engineer%20%C2%B7%20LLB%20Kabarak%20%C2%B7%20Nairobi&descSize=13&descAlignY=55" width="100%" alt="brand header" />
 
-<img src="./systems-map.svg" width="960" alt="Systems map: RIS offline AI, shipped products, access layer" />
+# Shadrack Baraka Mwahanga
 
-**Engineer · LLB, Kabarak University · Nairobi**
+**Engineer · Law student · Team lead, Research in a Stick**
 
-Offline AI. Legal tech. Field systems. Campus infrastructure. Products that survive real networks.
+I build systems that hold up on real Kenyan networks: feature phones, intermittent data, M-Pesa rails, and users who will not install another app.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=520&height=36&lines=USB+offline+RAG;USSD+first;M-Pesa+rails;47+counties;no+cloud+required" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=500&height=34&lines=USB+offline+RAG;USSD+first;M-Pesa+rails;47+counties;no+cloud+required" alt="Typing SVG" />
 
 <br/>
 
-<!-- skill icons -->
 <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,python,fastapi,firebase,supabase,postgres,html,css,tailwind,git,github,vercel&theme=dark" alt="skills" />
 
 <br/>
 
-<!-- trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=shadrackb1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&row=1&column=7" width="100%" alt="trophies" />
 
-<!-- visitor counter -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=shadrackb1&color=22D3EE&style=flat&label=profile+views" alt="profile views" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=shadrackb1&color=22D3EE&style=flat&label=profile+views" alt="profile views" />
 
 </div>
 
 ---
 
-## Navigation
+## Contents
 
-[About](#about) · [Impact](#impact) · [Stack](#stack) · [Credentials](#credentials) · [Pipeline](#pipeline) · [Activity](#activity) · [Work](#work) · [Playground](#playground) · [Recent](#recent-activity) · [Contact](#contact)
+| Section | What you'll find |
+| --- | --- |
+| [System](#system) | What I build for and how |
+| [Impact](#impact) | RIS reach and unit economics |
+| [Products](#products) | Flagship work by domain |
+| [Engineering](#engineering) | Stack, pipeline, credentials |
+| [Activity](#activity) | Live GitHub signal |
+| [Playground](#playground) | Games and product mocks |
+| [Contact](#contact) | Reach me |
 
 ---
 
-## About
+## System
 
-I lead **Research in a Stick (RIS)**: an offline AI research workstation that boots from a USB drive. Local LLMs, document RAG, citation engine, Kiswahili and English. No cloud account. No install.
+Constraint first. Product second. Stack last.
 
-I organize robotics and applied AI workshops at Kabarak University. I study law. The numbers below come from shipped work, not pitch decks.
+```text
+  constraint                  response
+  ──────────────────────────  ─────────────────────────────
+  no internet                 local models (Ollama, Kiwix)
+  feature phone               USSD + WhatsApp
+  screenshot fraud            short-lived tokens + device bind
+  opaque case law             structured search + briefs
+  47 counties, one team       field ops dashboard + QR IDs
+  cash economy                M-Pesa STK Push end to end
+```
+
+<img src="./systems-map.svg" width="100%" alt="Systems map" />
 
 ---
 
 ## Impact
 
-<img src="./analytics-impact.svg" width="960" alt="Impact gauges: 4.5M university, 3M secondary, 500K researchers" />
+Research in a Stick is the core project: offline AI on a USB stick for students and researchers the internet misses.
+
+<img src="./analytics-impact.svg" width="100%" alt="Impact gauges" />
 
 ---
 
-## Stack
+## Products
 
-<img src="./analytics-stack.svg" width="960" alt="Stack donut and domain bars" />
+### Legal tech
+
+| Product | What it does |
+| --- | --- |
+| [Juriscore](https://github.com/shadrackb1/juriscore) | Case search, briefs, citations for Kenyan law students |
+| [Know Your Rights](https://github.com/shadrackb1/know-your-rights) | Plain-language legal rights |
+| [Law Beyond](https://github.com/shadrackb1/law-beyond) | Study planner, streaks, budgets |
+
+### Education and campus
+
+| Product | What it does |
+| --- | --- |
+| [KSAS](https://github.com/shadrackb1/KSAS) | Anti-fraud attendance with expiring QR |
+| [USSD Attendance](https://github.com/shadrackb1/ussd-attendance) | Check-in on any handset |
+| [KABU AI](https://github.com/shadrackb1/KABU-AI) | Campus assistant |
+| [EDU KE](https://github.com/shadrackb1/edu-ke-) | School analytics |
+
+### Field ops and payments
+
+| Product | What it does |
+| --- | --- |
+| [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) | Sites, fuel, breakdowns, 47 counties |
+| [EFK Battles](https://github.com/shadrackb1/efk-battles) | Tournaments, M-Pesa entry, brackets |
+| [Mingle](https://github.com/shadrackb1/mingle-app) | Matchmaking for Kenya |
+
+### Health, community, clients
+
+| Product | What it does |
+| --- | --- |
+| [CareConnect](https://github.com/shadrackb1/careconnect1) | Real-time care coordination |
+| [OBOMOCARE](https://github.com/shadrackb1/obomocare-live) | Community programs, Kisii and Nyamira |
+| [UniHub](https://github.com/shadrackb1/UniHUbKe) | Student housing |
+| [ShopLedger](https://github.com/shadrackb1/shopledger) | Retail ledger |
+| Plus | insurance, hospitality, foundations, restaurants, fashion in the repo list |
+
+---
+
+## Engineering
+
+### Stack mix
+
+<img src="./analytics-stack.svg" width="100%" alt="Stack donut and domains" />
 
 <div align="center">
-
 <a href="https://github.com/shadrackb1?tab=repositories">
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shadrackb1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=CBD5E1" alt="Top languages" />
 </a>
 <a href="https://github.com/shadrackb1">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=shadrackb1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&icon_color=A78BFA&text_color=CBD5E1" alt="GitHub stats" />
 </a>
-
 </div>
 
----
+### RIS pipeline
 
-## Credentials
+<img src="./analytics-pipeline.svg" width="100%" alt="RIS pipeline" />
 
-<img src="./analytics-skills.svg" width="960" alt="Certification donut and skills radar" />
+### Credentials
 
-Full verification index: [credentials hub](https://shadrackb1.github.io/playground/credentials.html)
+<img src="./analytics-skills.svg" width="100%" alt="Credentials and skills radar" />
 
----
-
-## Pipeline
-
-How RIS moves a document to a cited answer without leaving the stick.
-
-<img src="./analytics-pipeline.svg" width="960" alt="RIS pipeline and surface area metrics" />
+[Open credentials hub](https://shadrackb1.github.io/playground/credentials.html) for all 24 verification links.
 
 ---
 
 ## Activity
 
-<img src="./analytics-activity.svg" width="960" alt="Contribution heat and product counters" />
+<img src="./analytics-activity.svg" width="100%" alt="Activity heat" />
 
 <div align="center">
-
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=shadrackb1&theme=tokyonight&hide_border=true&background=0B1220&stroke=1E293B&ring=22D3EE&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=CBD5E1&dates=64748B&currStreakNum=22D3EE" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=shadrackb1&theme=tokyonight&hide_border=true&background=0B1220&stroke=1E293B&ring=22D3EE&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=CBD5E1&dates=64748B&currStreakNum=22D3EE" alt="Streak" />
 </a>
-
-<img src="./dist/profile-3d.svg" width="720" alt="3D contribution graph" onerror="this.style.display='none'" />
-
-<img src="./dist/github-snake.svg" width="720" alt="Contribution snake" onerror="this.style.display='none'" />
-
+<br/>
+<img src="./dist/profile-3d.svg" width="640" alt="3D contribution graph" onerror="this.style.display='none'" />
+<br/>
+<img src="./dist/github-snake.svg" width="640" alt="Contribution snake" onerror="this.style.display='none'" />
 </div>
 
----
-
-## Work
-
-### Research in a Stick
-
-USB offline RAG. Ollama, LangChain, ChromaDB, Kiwix, citation engine. CRIW 2026.
-
-### Flagship products
-
-| Product | Domain |
-| --- | --- |
-| [Juriscore](https://github.com/shadrackb1/juriscore) | Legal research |
-| [Know Your Rights](https://github.com/shadrackb1/know-your-rights) | Legal literacy |
-| [Law Beyond](https://github.com/shadrackb1/law-beyond) | Study systems |
-| [USSD Attendance](https://github.com/shadrackb1/ussd-attendance) | Feature-phone check-in |
-| [KSAS](https://github.com/shadrackb1/KSAS) | Campus attendance security |
-| [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) | Field operations |
-| [EFK Battles](https://github.com/shadrackb1/efk-battles) | Tournaments + M-Pesa |
-| [Mingle](https://github.com/shadrackb1/mingle-app) | Matchmaking |
-| [CareConnect](https://github.com/shadrackb1/careconnect1) | Care coordination |
-| [OBOMOCARE](https://github.com/shadrackb1/obomocare-live) | Community platform |
-
-### More in the repo list
-
-Housing, retail, insurance, hospitality, justice orgs, foundations, school analytics, fashion, restaurants.
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
 ## Playground
 
-<img src="./mini-games.svg" width="720" alt="Snake, pong, breakout previews" />
+<img src="./mini-games.svg" width="100%" alt="Mini games" />
 
-| Demo | Play |
+| Type | Demo |
 | --- | --- |
-| Snake | [play](https://shadrackb1.github.io/playground/snake.html) |
-| Pong | [play](https://shadrackb1.github.io/playground/pong.html) |
-| Memory | [play](https://shadrackb1.github.io/playground/memory.html) |
-| Reaction | [play](https://shadrackb1.github.io/playground/reaction.html) |
-| **USSD simulator** | [play](https://shadrackb1.github.io/playground/ussd.html) |
-| **RIS lab** | [play](https://shadrackb1.github.io/playground/ris-lab.html) |
-| **2048** | [play](https://shadrackb1.github.io/playground/game-2048.html) |
-| **Mines** | [play](https://shadrackb1.github.io/playground/mines.html) |
-| **Credentials hub** | [open](https://shadrackb1.github.io/playground/credentials.html) |
+| Games | [Snake](https://shadrackb1.github.io/playground/snake.html) · [Pong](https://shadrackb1.github.io/playground/pong.html) · [2048](https://shadrackb1.github.io/playground/game-2048.html) · [Memory](https://shadrackb1.github.io/playground/memory.html) · [Mines](https://shadrackb1.github.io/playground/mines.html) · [Reaction](https://shadrackb1.github.io/playground/reaction.html) |
+| Product mocks | [USSD simulator](https://shadrackb1.github.io/playground/ussd.html) · [RIS lab](https://shadrackb1.github.io/playground/ris-lab.html) |
+| Reference | [Credentials hub](https://shadrackb1.github.io/playground/credentials.html) |
 
-Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/) · Certs: [credentials](https://shadrackb1.github.io/playground/credentials.html)
-
----
-
-## Recent activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/)
 
 ---
 
@@ -161,6 +170,6 @@ Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/)
 
 [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:F472B6&height=90&section=footer&text=build%20%C2%B7%20ship%20%C2%B7%20maintain&fontColor=E2E8F0&fontSize=16&animation=fadeIn" width="960" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:F472B6&height=80&section=footer&text=build%20%C2%B7%20ship%20%C2%B7%20maintain&fontColor=E2E8F0&fontSize=15&animation=fadeIn" width="100%" alt="footer" />
 
 </div>
