@@ -72,28 +72,15 @@ Research in a Stick is the core project: offline AI on a USB stick for students 
 
 ## Pinned
 
-Live cards from the flagship repos.
+Animated cards for the flagship systems. Each one shows the product's actual constraint.
 
-<div align="center">
-<a href="https://github.com/shadrackb1/KSAS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=KSAS&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=CBD5E1&icon_color=34D399" alt="KSAS" />
-</a>
-<a href="https://github.com/shadrackb1/juriscore">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=juriscore&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=A78BFA&text_color=CBD5E1&icon_color=A78BFA" alt="Juriscore" />
-</a>
-<a href="https://github.com/shadrackb1/ussd-attendance">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=ussd-attendance&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=34D399&text_color=CBD5E1&icon_color=34D399" alt="USSD Attendance" />
-</a>
-<a href="https://github.com/shadrackb1/efk-battles">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=efk-battles&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=F472B6&text_color=CBD5E1&icon_color=F472B6" alt="EFK Battles" />
-</a>
-<a href="https://github.com/shadrackb1/foursons-fieldops">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=foursons-fieldops&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8" alt="FieldOps" />
-</a>
-<a href="https://github.com/shadrackb1/playground">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=playground&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=F59E0B&text_color=CBD5E1&icon_color=F59E0B" alt="Playground" />
-</a>
-</div>
+[KSAS](https://github.com/shadrackb1/KSAS) · [Juriscore](https://github.com/shadrackb1/juriscore) · [USSD Attendance](https://github.com/shadrackb1/ussd-attendance)
+
+<img src="./pin-row1.svg" width="100%" alt="KSAS, Juriscore, USSD animated pin cards" />
+
+[EFK Battles](https://github.com/shadrackb1/efk-battles) · [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) · [Playground](https://github.com/shadrackb1/playground)
+
+<img src="./pin-row2.svg" width="100%" alt="EFK, FieldOps, Playground animated pin cards" />
 
 ---
 
