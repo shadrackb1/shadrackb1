@@ -1,39 +1,98 @@
+<div align="center">
+
+<img src="./field.svg" width="720" alt="oscillating field lines" />
+
 # Shadrack Baraka Mwahanga
 
-**Full-stack engineer · Law student @ Kabarak University · Nakuru, Kenya**
+**Law student. Systems engineer. Nakuru → anywhere the packet can reach.**
 
-I design and ship production web and mobile systems for real Kenyan users — campuses, clinics, field teams, courtrooms, and markets. My work sits at the intersection of product engineering and domain expertise: legal tech, education, health, logistics, and payments.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=560&height=50&lines=thought+%E2%86%92+compile+%E2%86%92+ship;I+read+statutes+like+source+code;consensus+is+a+physics+problem;the+network+is+the+machine" alt="Typing SVG" />
+</a>
 
-```ts
-const focus = {
-  stack: ['TypeScript', 'React', 'Node.js', 'Supabase', 'Firebase', 'PostgreSQL'],
-  patterns: ['realtime sync', 'role-based access', 'mobile-first PWA', 'USSD + STK payments'],
-  domains: ['legal tech', 'edtech', 'healthcare', 'field ops', 'fintech'],
-};
+<br/>
+
+```text
+  I do not optimize components.
+  I optimize the constraints
+  under which components are forced
+  to become correct.
 ```
 
-## Selected work
+</div>
 
-| Project | What it does | Stack |
+---
+
+## First principles
+
+```python
+class Engineer:
+    """Not a stack. A discipline."""
+
+    def __init__(self):
+        self.tools = []          # disposable
+        self.invariants = []     # permanent
+
+    def solve(self, problem):
+        while problem.is_mysterious():
+            problem.lower_to_first_principles()
+        return self.make_it_inevitable(problem)
+```
+
+I build systems the way a physicist builds a theory: **strip until the law is obvious, then encode the law so the universe cannot argue.**
+
+| Domain | Obsession |
+| --- | --- |
+| **Distributed systems** | Causality, consensus, and what still holds when the network lies |
+| **Compilers & languages** | Programs that prove themselves before they run |
+| **Security** | Failure modes designed in, not bolted on |
+| **Legal systems** | Statutes are source code for society — same bugs, same refactors |
+| **Interfaces under constraint** | USSD. Feature phones. Intermittent power. Real Kenya. |
+
+---
+
+## Selected theorems (shipped as products)
+
+| Theorem | Statement | Artifact |
 | --- | --- | --- |
-| [KSAS](https://github.com/shadrackb1/KSAS) | Anti-fraud attendance for Kabarak — expiring QR tokens, device binding, 5-layer check-in | React · TS · Firebase |
-| [Juriscore](https://github.com/shadrackb1/juriscore) | Legal research app for Kenyan law students — case search, briefs, citations | React Native · FastAPI · Supabase |
-| [Law Beyond](https://github.com/shadrackb1/law-beyond) | Study streaks, planner, budgets & peer feed with M-Pesa premium tiers | React · Supabase · Lipana |
-| [USSD Attendance](https://github.com/shadrackb1/ussd-attendance) | Feature-phone attendance via USSD — works without smartphones | Node · Express · Postgres |
-| [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) | Field ops across 47 counties — sites, fuel fraud flags, breakdowns, QR worker IDs | React · Firebase |
-| [EFK Battles](https://github.com/shadrackb1/efk-battles) | Anonymous eFootball tournaments — M-Pesa entry, auto-brackets, WhatsApp fixtures | Next.js · Supabase |
-| [Mingle](https://github.com/shadrackb1/mingle-app) | Matchmaking platform for the Kenyan market — swipe, chat, referrals, membership | React · Express · Supabase |
-| [CareConnect](https://github.com/shadrackb1/careconnect1) | Real-time care coordination for parents & caregivers | React · Supabase · Leaflet |
-| [OBOMOCARE](https://github.com/shadrackb1/obomocare-live) | CBO platform — programs, stories, diaspora engagement (Kisii & Nyamira) | React · Firebase · PWA |
+| **Attendance cannot be faked by screenshot** | Bind identity to device + time + intent, not pixels | [KSAS](https://github.com/shadrackb1/KSAS) |
+| **Law should be queryable** | Case law is a graph. Students deserve an API. | [Juriscore](https://github.com/shadrackb1/juriscore) |
+| **Check-in without a smartphone** | If it works on USSD, it works for everyone | [ussd-attendance](https://github.com/shadrackb1/ussd-attendance) |
+| **Field ops are a consistency problem** | 47 counties, one source of truth | [foursons-fieldops](https://github.com/shadrackb1/foursons-fieldops) |
+| **Tournaments are state machines** | Money in → bracket out. No trust required. | [efk-battles](https://github.com/shadrackb1/efk-battles) |
+| **Study is a control system** | Streaks, budgets, feedback loops | [law-beyond](https://github.com/shadrackb1/law-beyond) |
 
-## How I work
+---
 
-- **Security is product design.** KSAS binds check-ins to device fingerprints and one-time tokens so screenshots and proxy attendance fail by construction.
-- **Meet users where they are.** USSD and WhatsApp for feature phones; PWAs and STK Push for mobile-first Kenyan flows.
-- **Own the stack end to end.** Schema, API, UI, auth, payments, deployment — no hand-offs required to ship.
+## Research
 
-## Currently
+**Research in a Stick** — offline intelligence on a USB stick.
+No cloud. No install. No excuse for the digital divide.
 
-Building tools that make legal knowledge, education, and public services more accessible across Kenya.
+Local inference · retrieval · citation · Kiswahili · built for CRIW 2026, Kabarak University.
 
-**Contact:** [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka)
+---
+
+## Operating system
+
+```bash
+$ whoami
+shadrack — one who treats latency as a moral failing
+
+$ man engineer
+DESCRIPTION
+    Turns constraints into architecture.
+    Reads failure before users do.
+    Prefers a proof to a demo.
+
+SEE ALSO
+    physics(1), law(3), tcp(7), stubbornness(∞)
+```
+
+<div align="center">
+
+**shadrackb@kabarak.ac.ke** · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka)
+
+*"The present is theirs; the future, for which I really worked, is mine."* — Nikola Tesla
+
+</div>
