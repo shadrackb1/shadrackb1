@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/><stop offset="100%" stop-color="#0A1520"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#818CF8"/><stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="340" fill="url(#bg)"/>
+  <text x="32" y="36" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#94A3B8" letter-spacing="3">PIPELINE · RIS OFFLINE RAG</text>
+
+  <!-- animated pipeline -->
+  <g transform="translate(40,70)" font-family="ui-monospace,Menlo,monospace">
+    <!-- stage boxes -->
+    <g>
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#22D3EE" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Documents</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">PDF · notes · CSV</text>
+    </g>
+    <g transform="translate(160,0)">
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#34D399" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Chunk + embed</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">MiniLM · Chroma</text>
+    </g>
+    <g transform="translate(320,0)">
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#818CF8" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Retrieve</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">top-k context</text>
+    </g>
+    <g transform="translate(480,0)">
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Local LLM</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">Ollama · Llama/Qwen</text>
+    </g>
+    <g transform="translate(640,0)">
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#F472B6" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Cite</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">APA · Van · Harv</text>
+    </g>
+    <g transform="translate(800,0)">
+      <rect width="120" height="56" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+      <text x="60" y="24" text-anchor="middle" font-size="12" fill="#E2E8F0">Answer</text>
+      <text x="60" y="42" text-anchor="middle" font-size="10" fill="#64748B">EN · Kiswahili</text>
+    </g>
+  </g>
+
+  <!-- animated data packets on the wire -->
+  <g>
+    <line x1="160" y1="98" x2="200" y2="98" stroke="#1E293B" stroke-width="2"/>
+    <line x1="320" y1="98" x2="360" y2="98" stroke="#1E293B" stroke-width="2"/>
+    <line x1="480" y1="98" x2="520" y2="98" stroke="#1E293B" stroke-width="2"/>
+    <line x1="640" y1="98" x2="680" y2="98" stroke="#1E293B" stroke-width="2"/>
+    <line x1="800" y1="98" x2="840" y2="98" stroke="#1E293B" stroke-width="2"/>
+    <circle r="4" fill="#22D3EE">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M160,98 H200"/>
+    </circle>
+    <circle r="4" fill="#34D399">
+      <animateMotion dur="1.2s" begin="0.2s" repeatCount="indefinite" path="M320,98 H360"/>
+    </circle>
+    <circle r="4" fill="#818CF8">
+      <animateMotion dur="1.2s" begin="0.4s" repeatCount="indefinite" path="M480,98 H520"/>
+    </circle>
+    <circle r="4" fill="#F59E0B">
+      <animateMotion dur="1.2s" begin="0.6s" repeatCount="indefinite" path="M640,98 H680"/>
+    </circle>
+    <circle r="4" fill="#F472B6">
+      <animateMotion dur="1.2s" begin="0.8s" repeatCount="indefinite" path="M800,98 H840"/>
+    </circle>
+  </g>
+
+  <!-- product strip -->
+  <text x="32" y="175" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#94A3B8" letter-spacing="3">SURFACE AREA · WHAT SHIPPED</text>
+  <g transform="translate(32,195)" font-family="ui-monospace,Menlo,monospace" font-size="12">
+    <!-- big number cards -->
+    <g>
+      <rect width="140" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#22D3EE" font-weight="600">110+</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">repositories</text>
+      <rect x="20" y="82" width="100" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#22D3EE">
+        <animate attributeName="width" values="0;100" dur="1.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(160,0)">
+      <rect width="140" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#34D399" font-weight="600">10</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">flagship products</text>
+      <rect x="20" y="82" width="100" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#34D399">
+        <animate attributeName="width" values="0;70" dur="1.4s" begin="0.15s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(320,0)">
+      <rect width="140" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#818CF8" font-weight="600">47</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">counties in scope</text>
+      <rect x="20" y="82" width="100" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#818CF8">
+        <animate attributeName="width" values="0;100" dur="1.4s" begin="0.3s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(480,0)">
+      <rect width="140" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#F59E0B" font-weight="600">5</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">KSAS security layers</text>
+      <rect x="20" y="82" width="100" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#F59E0B">
+        <animate attributeName="width" values="0;50" dur="1.4s" begin="0.45s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(640,0)">
+      <rect width="140" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#F472B6" font-weight="600">4</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">playable games</text>
+      <rect x="20" y="82" width="100" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#F472B6">
+        <animate attributeName="width" values="0;30" dur="1.4s" begin="0.6s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(800,0)">
+      <rect width="128" height="110" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <text x="20" y="40" font-size="32" fill="#38BDF8" font-weight="600">24</text>
+      <text x="20" y="68" fill="#94A3B8" font-size="12">AI certifications</text>
+      <rect x="20" y="82" width="88" height="6" rx="3" fill="#1E293B"/>
+      <rect x="20" y="82" width="0" height="6" rx="3" fill="#38BDF8">
+        <animate attributeName="width" values="0;88" dur="1.4s" begin="0.75s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+</svg>
