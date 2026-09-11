@@ -178,7 +178,7 @@ Live cards from the flagship repos.
 <br/>
 <img src="./dist/github-snake.svg" width="640" alt="Contribution snake" onerror="this.style.display='none'" />
 <br/>
-<img src="./dist/metrics-isocalendar.svg" width="640" alt="Isometric commit calendar" onerror="this.style.display='none'" />
+<img src="./metrics-isocalendar.svg" width="720" alt="Isometric commit calendar" onerror="this.style.display='none'" />
 </div>
 
 <!--START_SECTION:activity-->
