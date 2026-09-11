@@ -1,0 +1,29 @@
+name: 3D contribution graph
+
+on:
+  schedule:
+    - cron: "43 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  contrib:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.3.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit 3d SVG
+        run: |
+          mkdir -p dist
+          mv profile-night-green.svg dist/profile-3d.svg 2>/dev/null || true
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f dist/profile-3d.svg
+          git diff --staged --quiet || git commit -m "chore: refresh 3d contribution graph"
+          git push
