@@ -18,10 +18,11 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: shadrackb1
         with:
           COMMIT_NAME: github-actions
           COMMIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           COMMIT_MSG: "chore: update recent activity"
           MAX_LINES: 6
           TARGET_FILE: README.md
-          TEMPLATE: "- {repo} · {message} ({timestamp})"
+          FILTER_EVENTS: "PushEvent,IssuesEvent,PullRequestEvent,ReleaseEvent"

@@ -143,8 +143,8 @@ Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/)
 
 ## Recent activity
 
-<!-- ACTIVITY:START -->
-<!-- ACTIVITY:END -->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
