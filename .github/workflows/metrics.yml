@@ -20,7 +20,7 @@ jobs:
         with:
           template: classic
           user: shadrackb1
-          filename: dist/metrics-isocalendar.svg
+          filename: metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community
           config_timezone: Africa/Nairobi
@@ -28,15 +28,30 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_achievements: yes
-          plugin_achievements_secrets: no
           plugin_achievements_threshold: C
           output_action: none
       - name: Commit metrics
         run: |
+          echo "Files produced:"
+          ls -la *.svg 2>/dev/null || true
+          ls -la dist/ 2>/dev/null || true
           mkdir -p dist
-          git config user.name "github-actions"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f dist/metrics-isocalendar.svg || true
-          git diff --staged --quiet || git commit -m "chore: refresh metrics calendar"
-          git pull --rebase origin main || true
-          git push
+          SRC=""
+          for f in metrics.svg metrics.plugin.isocalendar.svg metrics.classic.svg; do
+            [ -f "$f" ] && SRC="$f" && break
+          done
+          if [ -z "$SRC" ]; then
+            SRC=$(ls -1 *.svg 2>/dev/null | head -1)
+          fi
+          if [ -n "$SRC" ] && [ -f "$SRC" ]; then
+            cp "$SRC" dist/metrics-isocalendar.svg
+            git config user.name "github-actions"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -f dist/metrics-isocalendar.svg
+            git diff --staged --quiet || git commit -m "chore: refresh metrics calendar"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "No SVG found"
+            exit 0
+          fi
