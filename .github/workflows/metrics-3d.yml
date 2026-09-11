@@ -21,19 +21,24 @@ jobs:
           USERNAME: shadrackb1
       - name: Commit 3d SVG
         run: |
-          mkdir -p dist
-          for f in profile-*.svg profile-night-*.svg; do
-            [ -f "$f" ] || continue
-            cp "$f" dist/profile-3d.svg
-            break
+          echo "Looking for SVG outputs..."
+          find . -name '*.svg' -not -path './.git/*' | head -20
+          SRC=""
+          for f in profile-3d-contrib/profile-night-green.svg profile-3d-contrib/profile-green.svg profile-night-green.svg profile-green.svg; do
+            if [ -f "$f" ]; then SRC="$f"; break; fi
           done
-          if [ -f dist/profile-3d.svg ]; then
+          if [ -z "$SRC" ]; then
+            SRC=$(find profile-3d-contrib -name '*.svg' 2>/dev/null | head -1)
+          fi
+          mkdir -p dist
+          if [ -n "$SRC" ] && [ -f "$SRC" ]; then
+            cp "$SRC" dist/profile-3d.svg
             git config user.name "github-actions"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add -f dist/profile-3d.svg
             git diff --staged --quiet || git commit -m "chore: refresh 3d contribution graph"
             git push
           else
-            echo "No SVG produced"
-            ls -la
+            echo "No SVG found"
+            exit 0
           fi
