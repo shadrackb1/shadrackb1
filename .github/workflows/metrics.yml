@@ -1,0 +1,42 @@
+name: Metrics isometric calendar
+
+on:
+  schedule:
+    - cron: "11 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Isometric calendar only, brand colors
+          template: classic
+          user: shadrackb1
+          filename: dist/metrics-isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          base: header, activity, community
+          config_timezone: Africa/Nairobi
+          config_display: large
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_colors: ["#1E293B", "#0E3A4A", "#155E75", "#22D3EE", "#818CF8", "#F472B6"]
+          plugin_achievements: yes
+          plugin_achievements_only: Multiplier,Commits,Stargazers,Followers
+          output_action: none
+      - name: Commit metrics
+        run: |
+          mkdir -p dist
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f dist/metrics-isocalendar.svg
+          git diff --staged --quiet || git commit -m "chore: refresh metrics calendar"
+          git pull --rebase origin main || true
+          git push

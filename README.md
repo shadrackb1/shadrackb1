@@ -20,6 +20,10 @@ I build systems that hold up on real Kenyan networks: feature phones, intermitte
 
 <img src="https://komarev.com/ghpvc/?username=shadrackb1&color=22D3EE&style=flat&label=profile+views" alt="profile views" />
 
+<a href="mailto:shadrackb@kabarak.ac.ke"><img src="https://img.shields.io/badge/email-shadrackb%40kabarak.ac.ke-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
+<a href="https://www.linkedin.com/in/shadrackbaraka"><img src="https://img.shields.io/badge/LinkedIn-shadrackbaraka-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+<a href="https://shadrackb1.github.io/playground/"><img src="https://img.shields.io/badge/playground-games%20%2B%20demos-818CF8?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="playground" /></a>
+
 </div>
 
 ---
@@ -30,6 +34,7 @@ I build systems that hold up on real Kenyan networks: feature phones, intermitte
 | --- | --- |
 | [System](#system) | What I build for and how |
 | [Impact](#impact) | RIS reach and unit economics |
+| [Pinned](#pinned) | Live repo cards |
 | [Products](#products) | Flagship work by domain |
 | [Engineering](#engineering) | Stack, pipeline, credentials |
 | [Activity](#activity) | Live GitHub signal |
@@ -62,6 +67,33 @@ Constraint first. Product second. Stack last.
 Research in a Stick is the core project: offline AI on a USB stick for students and researchers the internet misses.
 
 <img src="./analytics-impact.svg" width="100%" alt="Impact gauges" />
+
+---
+
+## Pinned
+
+Live cards from the flagship repos.
+
+<div align="center">
+<a href="https://github.com/shadrackb1/KSAS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=KSAS&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=CBD5E1&icon_color=34D399" alt="KSAS" />
+</a>
+<a href="https://github.com/shadrackb1/juriscore">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=juriscore&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=A78BFA&text_color=CBD5E1&icon_color=A78BFA" alt="Juriscore" />
+</a>
+<a href="https://github.com/shadrackb1/ussd-attendance">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=ussd-attendance&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=34D399&text_color=CBD5E1&icon_color=34D399" alt="USSD Attendance" />
+</a>
+<a href="https://github.com/shadrackb1/efk-battles">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=efk-battles&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=F472B6&text_color=CBD5E1&icon_color=F472B6" alt="EFK Battles" />
+</a>
+<a href="https://github.com/shadrackb1/foursons-fieldops">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=foursons-fieldops&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8" alt="FieldOps" />
+</a>
+<a href="https://github.com/shadrackb1/playground">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shadrackb1&repo=playground&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=F59E0B&text_color=CBD5E1&icon_color=F59E0B" alt="Playground" />
+</a>
+</div>
 
 ---
 
@@ -140,9 +172,13 @@ Research in a Stick is the core project: offline AI on a USB stick for students 
   <img src="https://streak-stats.demolab.com?user=shadrackb1&theme=tokyonight&hide_border=true&background=0B1220&stroke=1E293B&ring=22D3EE&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=CBD5E1&dates=64748B&currStreakNum=22D3EE" alt="Streak" />
 </a>
 <br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shadrackb1&bg_color=0B1220&color=64748B&line=22D3EE&point=FFFFFF&area=true&area_color=818CF8&hide_border=true&radius=8" width="100%" alt="Activity graph" />
+<br/>
 <img src="./dist/profile-3d.svg" width="640" alt="3D contribution graph" onerror="this.style.display='none'" />
 <br/>
 <img src="./dist/github-snake.svg" width="640" alt="Contribution snake" onerror="this.style.display='none'" />
+<br/>
+<img src="./dist/metrics-isocalendar.svg" width="640" alt="Isometric commit calendar" onerror="this.style.display='none'" />
 </div>
 
 <!--START_SECTION:activity-->
