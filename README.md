@@ -4,7 +4,7 @@
 
 # Shadrack Baraka Mwahanga
 
-**Engineer · Law student · Team lead, Research in a Stick**
+**Engineer · Ai Expert · Law student · Team lead, Research in a Stick**
 
 I build systems that hold up on real Kenyan networks: feature phones, intermittent data, M-Pesa rails, and users who will not install another app.
 
