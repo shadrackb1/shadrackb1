@@ -1,198 +1,74 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./hero-attractor-dark.svg">
+  <img src="./hero-attractor-light.svg" alt="Shadrack Baraka Mwahanga — Thomas attractor field with product nodes" width="100%">
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:22D3EE,100:818CF8&height=110&section=header&text=Shadrack%20Baraka%20Mwahanga&fontColor=E2E8F0&fontSize=28&animation=fadeIn&fontAlignY=32&desc=Engineer%20%C2%B7%20LLB%20Kabarak%20%C2%B7%20Nairobi&descSize=13&descAlignY=55" width="100%" alt="brand header" />
+### Engineer · LLB Kabarak · systems for Kenyan constraints
 
-# Shadrack Baraka Mwahanga
-
-**Engineer · Ai Expert · Law student · Team lead, Research in a Stick**
-
-I build systems that hold up on real Kenyan networks: feature phones, intermittent data, M-Pesa rails, and users who will not install another app.
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=500&height=34&lines=USB+offline+RAG;USSD+first;M-Pesa+rails;47+counties;no+cloud+required" alt="Typing SVG" />
+I build software for conditions most stacks ignore: no reliable internet, feature phones, screenshot fraud, cash rails, and crews spread across 47 counties. Constraint first; framework last.
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,python,fastapi,firebase,supabase,postgres,html,css,tailwind,git,github,vercel&theme=dark" alt="skills" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=shadrackb1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&row=1&column=7" width="100%" alt="trophies" />
-
-<img src="https://komarev.com/ghpvc/?username=shadrackb1&color=22D3EE&style=flat&label=profile+views" alt="profile views" />
-
-<a href="mailto:shadrackb@kabarak.ac.ke"><img src="https://img.shields.io/badge/email-shadrackb%40kabarak.ac.ke-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
-<a href="https://www.linkedin.com/in/shadrackbaraka"><img src="https://img.shields.io/badge/LinkedIn-shadrackbaraka-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-<a href="https://shadrackb1.github.io/playground/"><img src="https://img.shields.io/badge/playground-games%20%2B%20demos-818CF8?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="playground" /></a>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./signal-grid-dark.svg">
+  <img src="./signal-grid-light.svg" alt="Signal grid mapping constraints to products" width="100%">
+</picture>
 
 ---
 
-## Contents
+## Flagship systems
 
-| Section | What you'll find |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./constellation-dark.svg">
+  <img src="./constellation-light.svg" alt="47-county constellation with product beacons" width="100%">
+</picture>
+
+| System | What it does | Hard constraint it answers |
+| --- | --- | --- |
+| [Research in a Stick](https://github.com/shadrackb1/research-in-a-stick) | Offline AI research workstation on USB | Labs and libraries without network |
+| [KSAS](https://github.com/shadrackb1/KSAS) | Expiring QR + device-bound check-in | Lecture-hall screenshot fraud |
+| [Juriscore](https://github.com/shadrackb1/juriscore) | Case search, briefs, citations for Kenyan law students | PDF directories that do not teach |
+| [USSD Attendance](https://github.com/shadrackb1/ussd-attendance) | Dial-in attendance, any handset | Smartphones and data are not default |
+| [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) | Sites, fuel, breakdowns, casual registry | One crew, 47 counties |
+| [EFK Battles](https://github.com/shadrackb1/efk-battles) | Tournaments, M-Pesa entry, brackets | Cash economy payments end to end |
+
+---
+
+## Selected work
+
+| Domain | Repos |
 | --- | --- |
-| [System](#system) | What I build for and how |
-| [Impact](#impact) | RIS reach and unit economics |
-| [Pinned](#pinned) | Live repo cards |
-| [Products](#products) | Flagship work by domain |
-| [Engineering](#engineering) | Stack, pipeline, credentials |
-| [Activity](#activity) | Live GitHub signal |
-| [Playground](#playground) | Games and product mocks |
-| [Contact](#contact) | Reach me |
+| Legal literacy | [Know Your Rights KE](https://github.com/shadrackb1/knowyourrightske) · [Law Beyond](https://github.com/shadrackb1/law-beyond) · [Haki](https://github.com/shadrackb1/haki-chatbot) |
+| Campus | [KABU AI](https://github.com/shadrackb1/KABU-AI) · [Class Connect](https://github.com/shadrackb1/class-connect) · [CampusEats](https://github.com/shadrackb1/Campuseats) |
+| Markets & money | [ShopLedger](https://github.com/shadrackb1/shopledger) · [STK Push sandbox](https://github.com/shadrackb1/Stk-push) · [Jua Kazi KE](https://github.com/shadrackb1/JUA-KAZI-KE) |
+| Community | [OBOMOCARE](https://github.com/shadrackb1/obomocare-live) · [CareConnect](https://github.com/shadrackb1/careconnect1) · [PAWA](https://github.com/shadrackb1/PAWA) |
+| Client builds | Housing, insurance, hospitality, fashion, real estate across the repo list |
 
 ---
 
-## System
+## How the work gets made
 
-Constraint first. Product second. Stack last.
+Stack shifts with the constraint: React/Next when there is a browser and bandwidth, Node/Express/Postgres for USSD and money paths, FastAPI for research corpora, Firebase when realtime ops matter more than elegance. Delivery is usually a thin client, a boring API, and an offline or low-band path.
 
-```text
-  constraint                  response
-  ──────────────────────────  ─────────────────────────────
-  no internet                 local models (Ollama, Kiwix)
-  feature phone               USSD + WhatsApp
-  screenshot fraud            short-lived tokens + device bind
-  opaque case law             structured search + briefs
-  47 counties, one team       field ops dashboard + QR IDs
-  cash economy                M-Pesa STK Push end to end
-```
+Credentials and verification links live in the [playground credentials hub](https://shadrackb1.github.io/playground/credentials.html). Portfolio: [shadrack-portfolio-alpha.vercel.app](https://shadrack-portfolio-alpha.vercel.app).
 
-<img src="./systems-map.svg" width="100%" alt="Systems map" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./glyph-dark.svg">
+  <img src="./glyph-light.svg" alt="Superformula glyph" width="120" align="right">
+</picture>
 
 ---
 
-## Impact
+## Demos
 
-Research in a Stick is the core project: offline AI on a USB stick for students and researchers the internet misses.
+Games and product mocks, each file a complete app with no build step:
 
-<img src="./analytics-impact.svg" width="100%" alt="Impact gauges" />
-
----
-
-## Pinned
-
-Animated cards for the flagship systems. Each one shows the product's actual constraint.
-
-[KSAS](https://github.com/shadrackb1/KSAS) · [Juriscore](https://github.com/shadrackb1/juriscore) · [USSD Attendance](https://github.com/shadrackb1/ussd-attendance)
-
-<img src="./pin-row1.svg" width="100%" alt="KSAS, Juriscore, USSD animated pin cards" />
-
-[EFK Battles](https://github.com/shadrackb1/efk-battles) · [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) · [Playground](https://github.com/shadrackb1/playground)
-
-<img src="./pin-row2.svg" width="100%" alt="EFK, FieldOps, Playground animated pin cards" />
-
----
-
-## Products
-
-### Legal tech
-
-| Product | What it does |
-| --- | --- |
-| [Juriscore](https://github.com/shadrackb1/juriscore) | Case search, briefs, citations for Kenyan law students |
-| [Know Your Rights](https://github.com/shadrackb1/know-your-rights) | Plain-language legal rights |
-| [Law Beyond](https://github.com/shadrackb1/law-beyond) | Study planner, streaks, budgets |
-
-### Education and campus
-
-| Product | What it does |
-| --- | --- |
-| [KSAS](https://github.com/shadrackb1/KSAS) | Anti-fraud attendance with expiring QR |
-| [USSD Attendance](https://github.com/shadrackb1/ussd-attendance) | Check-in on any handset |
-| [KABU AI](https://github.com/shadrackb1/KABU-AI) | Campus assistant |
-| [EDU KE](https://github.com/shadrackb1/edu-ke-) | School analytics |
-
-### Field ops and payments
-
-| Product | What it does |
-| --- | --- |
-| [Foursons FieldOps](https://github.com/shadrackb1/foursons-fieldops) | Sites, fuel, breakdowns, 47 counties |
-| [EFK Battles](https://github.com/shadrackb1/efk-battles) | Tournaments, M-Pesa entry, brackets |
-| [Mingle](https://github.com/shadrackb1/mingle-app) | Matchmaking for Kenya |
-
-### Health, community, clients
-
-| Product | What it does |
-| --- | --- |
-| [CareConnect](https://github.com/shadrackb1/careconnect1) | Real-time care coordination |
-| [OBOMOCARE](https://github.com/shadrackb1/obomocare-live) | Community programs, Kisii and Nyamira |
-| [UniHub](https://github.com/shadrackb1/UniHUbKe) | Student housing |
-| [ShopLedger](https://github.com/shadrackb1/shopledger) | Retail ledger |
-| Plus | insurance, hospitality, foundations, restaurants, fashion in the repo list |
-
----
-
-## Engineering
-
-### Stack mix
-
-<img src="./analytics-stack.svg" width="100%" alt="Stack donut and domains" />
-
-<div align="center">
-<a href="https://github.com/shadrackb1?tab=repositories">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shadrackb1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=CBD5E1" alt="Top languages" />
-</a>
-<a href="https://github.com/shadrackb1">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=shadrackb1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=22D3EE&icon_color=A78BFA&text_color=CBD5E1" alt="GitHub stats" />
-</a>
-</div>
-
-### RIS pipeline
-
-<img src="./analytics-pipeline.svg" width="100%" alt="RIS pipeline" />
-
-### Credentials
-
-<img src="./analytics-skills.svg" width="100%" alt="Credentials and skills radar" />
-
-[Open credentials hub](https://shadrackb1.github.io/playground/credentials.html) for all 24 verification links.
-
----
-
-## Activity
-
-<img src="./analytics-activity.svg" width="100%" alt="Activity heat" />
-
-<div align="center">
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=shadrackb1&theme=tokyonight&hide_border=true&background=0B1220&stroke=1E293B&ring=22D3EE&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=CBD5E1&dates=64748B&currStreakNum=22D3EE" alt="Streak" />
-</a>
-<br/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shadrackb1&bg_color=0B1220&color=64748B&line=22D3EE&point=FFFFFF&area=true&area_color=818CF8&hide_border=true&radius=8" width="100%" alt="Activity graph" />
-<br/>
-<img src="./dist/profile-3d.svg" width="640" alt="3D contribution graph" onerror="this.style.display='none'" />
-<br/>
-<img src="./dist/github-snake.svg" width="640" alt="Contribution snake" onerror="this.style.display='none'" />
-<br/>
-<img src="./metrics-isocalendar.svg" width="720" alt="Isometric commit calendar" onerror="this.style.display='none'" />
-</div>
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
-## Playground
-
-<img src="./mini-games.svg" width="100%" alt="Mini games" />
-
-| Type | Demo |
-| --- | --- |
-| Games | [Snake](https://shadrackb1.github.io/playground/snake.html) · [Pong](https://shadrackb1.github.io/playground/pong.html) · [2048](https://shadrackb1.github.io/playground/game-2048.html) · [Memory](https://shadrackb1.github.io/playground/memory.html) · [Mines](https://shadrackb1.github.io/playground/mines.html) · [Reaction](https://shadrackb1.github.io/playground/reaction.html) |
-| Product mocks | [USSD simulator](https://shadrackb1.github.io/playground/ussd.html) · [RIS lab](https://shadrackb1.github.io/playground/ris-lab.html) |
-| Reference | [Credentials hub](https://shadrackb1.github.io/playground/credentials.html) |
-
-Hub: [shadrackb1.github.io/playground](https://shadrackb1.github.io/playground/)
+[Snake](https://shadrackb1.github.io/playground/snake.html) · [Pong](https://shadrackb1.github.io/playground/pong.html) · [2048](https://shadrackb1.github.io/playground/game-2048.html) · [USSD simulator](https://shadrackb1.github.io/playground/ussd.html) · [RIS lab](https://shadrackb1.github.io/playground/ris-lab.html) · [hub](https://shadrackb1.github.io/playground/)
 
 ---
 
 ## Contact
 
-<div align="center">
+[shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka) · [Portfolio](https://shadrack-portfolio-alpha.vercel.app)
 
-[shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:F472B6&height=80&section=footer&text=build%20%C2%B7%20ship%20%C2%B7%20maintain&fontColor=E2E8F0&fontSize=15&animation=fadeIn" width="100%" alt="footer" />
-
-</div>
+<sub>Hero: Thomas attractor, 2400 Euler integrations, icosahedral product cage. Grid: 18 packet agents on PCB buses. Constellation: Fibonacci lattice n=47. Glyph: dual superformula. Generated, not drawn.</sub>
