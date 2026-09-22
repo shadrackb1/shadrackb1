@@ -29,6 +29,11 @@ Keys `1`–`6` switch. Idle mode keeps the field breathing. [Playground hub](htt
   <img src="./sketch-coverage-light.svg" alt="Hand sketch of 47-county coverage" width="420">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./margin-notes-dark.svg">
+  <img src="./margin-notes-light.svg" alt="Margin notes to self" width="420">
+</picture>
+
 ---
 
 ## Flagship systems
@@ -77,4 +82,4 @@ Credentials: [hub](https://shadrackb1.github.io/playground/credentials.html). Po
 
 [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka) · [Portfolio](https://shadrack-portfolio-alpha.vercel.app) · [Lab](https://shadrackb1.github.io/playground/lab.html)
 
-<sub>Pages from a field notebook: ink wobble, tape, red pen, coffee ring. Drawn paths animate as if a pen is still moving. Stamp mark SBM · FIELD · KENYA.</sub>
+<sub>Still-alive notebook: ink bleeds, the stamp presses and breathes, pens keep drawing, county dots pulse, margin stars and spirals wander, coffee ring stains slowly. SBM · FIELD · KENYA.</sub>
