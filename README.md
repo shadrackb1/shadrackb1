@@ -78,6 +78,13 @@ Credentials: [hub](https://shadrackb1.github.io/playground/credentials.html). Po
 
 ---
 
+## Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
 ## Contact
 
 [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka) · [Portfolio](https://shadrack-portfolio-alpha.vercel.app) · [Lab](https://shadrackb1.github.io/playground/lab.html)
