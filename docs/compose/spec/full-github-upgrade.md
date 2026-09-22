@@ -52,9 +52,11 @@ Typography: system UI for README prose; monospace for telemetry labels inside SV
 
 Signature assets (Python-generated SMIL SVG, light+dark):
 
-1. **`hero-attractor.svg`** — Lorenz/Thomas strange-attractor ribbon field with 3D-projected product nodes orbiting on an icosahedral cage. Name set in the dead space of the attractor. Continuous SMIL rotation + node pulse.
-2. **`signal-grid.svg`** — PCB / mission-bus traces with 80+ animated pulse dots traveling constraint→product paths (no internet→RIS, feature phone→USSD, etc.).
-3. **`constellation.svg`** — 47 county points on a sphere wireframe, Kenyan products as brighter stations, slow global rotation.
+1. **`hero-attractor.svg`** — Lorenz/Thomas strange-attractor ribbon field with 3D-projected product nodes orbiting on an icosahedral cage. Name set in the dead space of the attractor. Continuous SMIL rotation + node pulse. **Glass nameplate** (frosted blur panel) over the field; **physics**: node springs (critically damped keySplines), packet gravity bounces on the cage edges.
+2. **`signal-grid.svg`** — PCB / mission-bus traces with 80+ animated pulse dots traveling constraint→product paths. **Glass docks** at each end (blur + translucent fill + inner highlight). **Physics**: packets ease with accelerating gravity then settle (keySplines mimicking g and restitution).
+3. **`constellation.svg`** — 47 county points on a sphere wireframe, Kenyan products as brighter stations, slow global rotation. **Glass HUD chip** for the legend. **Physics**: station beacons spring-scale with overshoot; orbital rings use elliptical Kepler-ish phase offsets.
+
+Material language: **glassmorphism** on every UI chrome layer (nameplates, docks, chips): `feGaussianBlur` backdrop approx, translucent fill (`rgba` equivalents via fill-opacity), 1px light-edge stroke, no drop shadows that read as bevel. **Physics-based motion** on every moving agent: spring (overshoot+settle), gravity (ease-in then bounce with restitution ~0.55), orbital (constant angular velocity with perspective scale). No linear cartoon loops.
 
 Drop all third-party badge widgets. README sections stay scannable but sit *under* the generative stack like captions under a gallery piece.
 

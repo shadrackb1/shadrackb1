@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./hero-attractor-dark.svg">
-  <img src="./hero-attractor-light.svg" alt="Shadrack Baraka Mwahanga — Thomas attractor field with product nodes" width="100%">
+  <img src="./hero-attractor-light.svg" alt="Shadrack Baraka Mwahanga — Fourier rose, double-pendulum chaos trail, metaballs, glass nameplate" width="100%">
 </picture>
 
 ### Engineer · LLB Kabarak · systems for Kenyan constraints
@@ -59,6 +59,22 @@ Credentials and verification links live in the [playground credentials hub](http
 
 ---
 
+## Physics lab
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./pendulum-dark.svg">
+  <img src="./pendulum-light.svg" alt="Double pendulum chaos trail" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./metaballs-dark.svg">
+  <img src="./metaballs-light.svg" alt="Glass metaballs and spring lattice" width="100%">
+</picture>
+
+Deterministic chaos, coupled springs, Kepler rings, and Chladni standing-wave dust. Frosted glass chrome on every HUD. Generated from `scripts/forge_svg.py`.
+
+---
+
 ## Demos
 
 Games and product mocks, each file a complete app with no build step:
@@ -71,4 +87,4 @@ Games and product mocks, each file a complete app with no build step:
 
 [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka) · [Portfolio](https://shadrack-portfolio-alpha.vercel.app)
 
-<sub>Hero: Thomas attractor, 2400 Euler integrations, icosahedral product cage. Grid: 18 packet agents on PCB buses. Constellation: Fibonacci lattice n=47. Glyph: dual superformula. Generated, not drawn.</sub>
+<sub>Hero: Fourier rose (epicycle reconstruction of cos 5θ), double-pendulum chaos trail, spring metaballs, Thomas ribbons. Grid: gravity packets with bounce restitution on glass docks. Constellation: Fibonacci n=47 over Chladni (3,2) modes with Kepler rings. Physics lab: 900-step double pendulum + 6×6 damped spring lattice. Glyph: dual superformula in a frosted panel. All motion uses spring/gravity keySplines, not linear loops. Generated, not drawn.</sub>
