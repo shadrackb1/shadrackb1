@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./hero-attractor-dark.svg">
-  <img src="./hero-attractor-light.svg" alt="Shadrack Baraka Mwahanga — generative systems" width="100%">
+  <img src="./hero-attractor-light.svg" alt="Field notebook — constraint diagram in ink" width="100%">
 </picture>
 
 **Shadrack Baraka Mwahanga** · engineer · LLB Kabarak · Nakuru / Nairobi
@@ -20,13 +20,23 @@
 | Attractor | Hold for Lorenz, release for Thomas; mouse bends ρ |
 | Chladni | Sand finds nodal lines; mouse tunes modes `m, n` |
 | Julia | Complex `c` rides the cursor; hold to dive in |
-| Soft bodies | Herd glass metaballs |
+| Soft bodies | Herd soft blobs |
 
 Keys `1`–`6` switch. Idle mode keeps the field breathing. [Playground hub](https://shadrackb1.github.io/playground/) also has games and product mocks.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./sketch-coverage-dark.svg">
+  <img src="./sketch-coverage-light.svg" alt="Hand sketch of 47-county coverage" width="420">
+</picture>
 
 ---
 
 ## Flagship systems
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./case-index-dark.svg">
+  <img src="./case-index-light.svg" alt="Case index of shipped systems" width="100%">
+</picture>
 
 | System | What it does | Hard constraint |
 | --- | --- | --- |
@@ -58,7 +68,7 @@ Credentials: [hub](https://shadrackb1.github.io/playground/credentials.html). Po
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./glyph-dark.svg">
-  <img src="./glyph-light.svg" alt="SBM superformula mark" width="110" align="right">
+  <img src="./glyph-light.svg" alt="SBM field stamp" width="110" align="right">
 </picture>
 
 ---
@@ -67,4 +77,4 @@ Credentials: [hub](https://shadrackb1.github.io/playground/credentials.html). Po
 
 [shadrackb@kabarak.ac.ke](mailto:shadrackb@kabarak.ac.ke) · [LinkedIn](https://www.linkedin.com/in/shadrackbaraka) · [Portfolio](https://shadrack-portfolio-alpha.vercel.app) · [Lab](https://shadrackb1.github.io/playground/lab.html)
 
-<sub>Brand mark: dual superformula glyph. Hero: Fourier rose, double-pendulum trail, metaballs (forge in `scripts/forge_svg.py`). Lab: live canvas biomes with pointer physics.</sub>
+<sub>Pages from a field notebook: ink wobble, tape, red pen, coffee ring. Drawn paths animate as if a pen is still moving. Stamp mark SBM · FIELD · KENYA.</sub>
