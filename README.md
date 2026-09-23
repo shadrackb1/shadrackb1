@@ -11,18 +11,18 @@
 
 ## Stay in the lab
 
-**[Open Shadrack Lab](https://shadrackb1.github.io/playground/lab.html)** — six interactive systems. Cursor drives everything. Nothing loops. You will lose time.
+**[Open Shadrack Lab](https://shadrackb1.github.io/playground/lab.html)**: six cursor-driven systems on one canvas. Keys `1`–`6` switch biomes.
 
-| Biome | Control |
+| Biome | What moves |
 | --- | --- |
-| Flow field | Drag to pour a vortex through curl-noise rivers |
-| Particle life | Hold to gravity-well four emergent species |
-| Attractor | Hold for Lorenz, release for Thomas; mouse bends ρ |
-| Chladni | Sand finds nodal lines; mouse tunes modes `m, n` |
-| Julia | Complex `c` rides the cursor; hold to dive in |
-| Soft bodies | Herd soft blobs |
+| Flow field | Curl-noise rivers; drag to pour a vortex |
+| Particle life | Four species that herd and scatter |
+| Attractor | Thomas by default, Lorenz while held |
+| Chladni | Sand settling on nodal lines |
+| Julia | Complex map with `c` on the cursor |
+| Soft bodies | Soft blobs you can shove around |
 
-Keys `1`–`6` switch. Idle mode keeps the field breathing. [Playground hub](https://shadrackb1.github.io/playground/) also has games and product mocks.
+If the pointer goes still, the field drifts on its own. Games and product mocks sit in the [playground hub](https://shadrackb1.github.io/playground/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./sketch-coverage-dark.svg">
@@ -67,7 +67,7 @@ Keys `1`–`6` switch. Idle mode keeps the field breathing. [Playground hub](htt
 
 ## Method
 
-Stack follows the constraint, not the résumé. React or Next when bandwidth exists. Node, Express, Postgres on USSD and money paths. FastAPI for research corpora. Firebase when realtime ops matter more than elegance. Ship a thin client, a boring API, and an offline path.
+Stack follows the constraint, not the résumé. React or Next when bandwidth exists; Node, Express, Postgres on USSD and money paths; FastAPI for research corpora; Firebase when realtime ops matter more than elegance. Ship a thin client, a boring API, and an offline path.
 
 Credentials: [hub](https://shadrackb1.github.io/playground/credentials.html). Portfolio: [shadrack-portfolio-alpha.vercel.app](https://shadrack-portfolio-alpha.vercel.app).
 
